@@ -1,0 +1,28 @@
+.cover__overlay {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    gap: 32px;
+    z-index: 1;
+}
+
+.cover__overlay:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover__overlay:hover:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(42, 44, 47, 0.5);
+}
