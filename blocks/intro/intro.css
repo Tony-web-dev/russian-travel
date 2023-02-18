@@ -1,5 +1,11 @@
 .intro {
-    width: 984px;
+    width: calc(100% - 296px);
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: calc(100% - 96px);
+    }
 }
