@@ -26,3 +26,9 @@
     left: 0;
     background-color: rgba(42, 44, 47, 0.5);
 }
+
+@media screen and (max-width: 540px) {
+    .cover__overlay {
+        gap: 16px;
+    }
+}

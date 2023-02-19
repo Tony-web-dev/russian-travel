@@ -22,3 +22,16 @@
         column-gap: 28px;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "title"
+        "website"
+        "image"
+        "paragraphes";
+        gap: 32px;
+        justify-items: center; 
+    }
+}

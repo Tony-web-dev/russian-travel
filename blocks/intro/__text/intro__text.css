@@ -1,5 +1,5 @@
 .intro__text {
-    max-width: 690px;
+    width: 690px;
     margin: 40px 0 0;
     font-size: 16px;
     font-weight: 400;
@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 850px) {
     .intro__text {
-        max-width: 100%;
+        width: 100%;
     }
 }

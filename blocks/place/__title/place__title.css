@@ -14,3 +14,11 @@
         letter-spacing: 0.9px;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: calc(100% - 16px*2);
+    }
+}

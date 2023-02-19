@@ -18,3 +18,9 @@
         gap: 88px;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .content {
+        gap: 64px;
+    }
+}

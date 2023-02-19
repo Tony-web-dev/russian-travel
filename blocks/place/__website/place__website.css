@@ -2,3 +2,10 @@
     grid-area: website;
     align-self: self-end;
 }
+
+@media screen and (max-width: 540px) {
+    .place__website {
+        justify-self: center;
+        width: calc(100% - 16px*2);
+    }
+}
