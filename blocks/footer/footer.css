@@ -1,9 +1,8 @@
 .footer {
-    width: calc(100% - 96px);
+    width: calc(100% - 48px*2);
     min-height: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 92px auto 0;
-    padding-bottom: 24px;
+    padding: 92px 0 24px;
 }

@@ -1,12 +1,12 @@
 .places {
-    width: calc(100% - 296px);
+    width: calc(100% - 48px*2);
     display: flex;
     flex-direction: column;
     gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .places {
-        width: calc(100% - 96px);
+        width: calc(100% - 148px*2);
     }
 }
