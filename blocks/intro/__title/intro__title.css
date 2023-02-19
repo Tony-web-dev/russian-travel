@@ -6,13 +6,13 @@
     letter-spacing: 0.2px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .intro__title {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 700px) {
     .intro__title {
         font-size: 32px;
         line-height: 35px;
