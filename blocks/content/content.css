@@ -12,3 +12,9 @@
         padding-top: 56px;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .content {
+        gap: 88px;
+    }
+}

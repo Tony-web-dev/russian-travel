@@ -6,3 +6,10 @@
     align-items: center;
     padding: 92px 0 24px;
 }
+
+@media screen and (max-width: 850px) {
+    .footer {
+        width: calc(100% - 24px*2);
+        padding-top: 88px;
+    }
+}
