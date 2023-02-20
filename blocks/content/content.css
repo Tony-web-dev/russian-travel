@@ -4,12 +4,12 @@
     flex-direction: column;
     align-items: center;
     gap: 92px;
-    padding-top: 48px;
+    padding-top: 56px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .content {
-        padding-top: 56px;
+        padding-top: 48px;
     }
 }
 

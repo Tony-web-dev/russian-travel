@@ -3,16 +3,17 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
-    min-height: 640px;
+    width: calc(100% - 48px*2);
+    min-height: 740px;
     background-image: url(../../images/cover-trains.jpg);
+    background-position: center;
     background-size: cover;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .cover {
-        width: calc(100% - 48px*2);
-        min-height: 740px;
+        width: 100%;
+        min-height: 640px;
     }
 }
 
