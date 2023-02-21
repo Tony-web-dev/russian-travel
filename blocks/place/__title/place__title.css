@@ -6,22 +6,21 @@
     margin: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .place__title {
+        max-width: 330px;
         font-size: 42px;
         line-height: 46px;
-    }
-
-    /* для переноса слова "коса" строкой ниже */
-    .place__title:first-child {
-        letter-spacing: 0.8px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .place__title {
+        width: calc(100% - 16px*2);
+        justify-self: start;
+        margin-left: 16px;
         font-size: 32px;
         line-height: 35px;
-        width: calc(100% - 16px*2);
+        
     }
 }
